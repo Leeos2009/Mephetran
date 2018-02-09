@@ -99,4 +99,5 @@ public class MainCharacter : MonoBehaviour {
     {
         return (Input.GetKey(KeyCode.W));
     }
+    
 }
