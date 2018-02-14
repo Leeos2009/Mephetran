@@ -99,5 +99,12 @@ public class MainCharacter : MonoBehaviour {
     {
         return (Input.GetKey(KeyCode.W));
     }
-    
+    	void OnTriggerEnter(Collider other) 
+	{
+		if (other.gameObject.CompareTag ("Coin"))
+		{
+			other.gameObject.SetActive (false);
+			//score = score + 100;
+		}
+	}
 }

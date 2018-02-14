@@ -49,6 +49,7 @@
      <Compile Include="Assets\CameraControl.cs" />
      <Compile Include="Assets\Coins.cs" />
      <Compile Include="Assets\MainCharacter.cs" />
+     <Compile Include="Assets\Maze Generator.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
