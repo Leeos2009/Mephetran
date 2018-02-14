@@ -50,6 +50,7 @@
      <Compile Include="Assets\Coins.cs" />
      <Compile Include="Assets\MainCharacter.cs" />
      <Compile Include="Assets\MazeGenerator.cs" />
+     <Compile Include="Assets\ScoreControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

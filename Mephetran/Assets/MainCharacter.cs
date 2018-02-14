@@ -6,13 +6,12 @@ using UnityEngine;
 public class MainCharacter : MonoBehaviour {
 
 		public int speed = 15;
-    private float turningSpeed = 60;
+    private float turningSpeed = 100;
     GameObject Capsule;
 
     // Use this for initialization
     void Start () {
         Camera.main.transform.parent = this.transform;
-      
     }
 	
 	// Update is called once per frame
